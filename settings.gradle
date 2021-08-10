@@ -1,0 +1,2 @@
+rootProject.name = "WowNation"
+include ':app'
