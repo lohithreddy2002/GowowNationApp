@@ -5,4 +5,9 @@
     <string name="title_activity_testactivity">testactivity</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <array name="language">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Telugu</item>
+    </array>
 </resources>

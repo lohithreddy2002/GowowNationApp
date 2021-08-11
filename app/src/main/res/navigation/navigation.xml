@@ -47,5 +47,14 @@
     <fragment
         android:id="@+id/storeItemFragment"
         android:name="com.example.wownation.ui.fragments.StoreItemFragment"
-        android:label="StoreItemFragment" />
+        android:label="StoreItemFragment" >
+        <action
+            android:id="@+id/action_storeItemFragment_to_storeItemSelection"
+            app:destination="@id/storeItemSelection" />
+    </fragment>
+    <dialog
+        android:id="@+id/storeItemSelection"
+        android:name="com.example.wownation.ui.fragments.StoreItemSelection"
+        android:label="fragment_store_item_selection"
+        tools:layout="@layout/fragment_store_item_selection" />
 </navigation>
